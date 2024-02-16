@@ -7,4 +7,5 @@ module.exports = defineConfig({
     },
   },
   chromeWebSecurity: false,
+  projectId: "hdtcw9",
 });
