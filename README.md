@@ -24,10 +24,11 @@ In order to run these tests, please follow the below instructions.
 
 1. Install **Visual Studio Code** (or use any other editor of your choice).
 2. Install **Node.js** (https://nodejs.org/).
-3. Create a new folder to which you will clone the repository.
-4. Open Visual Studio Code (VS Code) inside this new folder.
-5. Open a new **Terminal** within VS Code.
-6. Next, enter the following commands one after another:
+3. install **Git**.
+4. Create a new folder to which you will clone the repository.
+5. Open Visual Studio Code (VS Code) inside this new folder.
+6. Open a new **Terminal** within VS Code.
+7. Next, enter the following commands one after another:
 
    ```bash
    git clone https://github.com/Wolf00007/sap-fioneer-qa-challenge
@@ -36,14 +37,14 @@ In order to run these tests, please follow the below instructions.
    npx cypress open
    ```
    
-7. Cypress will open in a new window. Click on the **E2E Testing** section.
+8. Cypress will open in a new window. Click on the **E2E Testing** section.
    ![Cypress E2E Testing](https://github.com/Wolf00007/sap-fioneer-qa-challenge/assets/36706107/bf3ea495-d925-4748-971e-0480a71b3132)
-8. Select **Google Chrome** as the browser and click on **Start E2E Testing in Chrome**.
+9. Select **Google Chrome** as the browser and click on **Start E2E Testing in Chrome**.
    ![Start E2E Testing in Chrome](https://github.com/Wolf00007/sap-fioneer-qa-challenge/assets/36706107/b010b98a-a7d4-4220-9ad1-d1a72c552d08)
-9. A new Chrome browser will open. While in the **Specs** menu, click on the **QAchallenge.cy.js** file. This will create a test run for all three tests.
-10. Afterwards, verify that all three tests have passed.
+10. A new Chrome browser will open. While in the **Specs** menu, click on the **QAchallenge.cy.js** file. This will create a test run for all three tests.
+11. Afterwards, verify that all three tests have passed.
     ![Test Results](https://github.com/Wolf00007/sap-fioneer-qa-challenge/assets/36706107/7ea18371-8861-45e8-868b-eb5b2f2513df)
-11. In order to run the tests again, tap the **R** button on your keyboard.
+12. In order to run the tests again, tap the **R** button on your keyboard.
 
 **Note:** Whenever you make a change in code and save, the tests are run again. So if you make any changes to current tests or add a new one, after you save them in VS Code, the new test run will execute.
 
