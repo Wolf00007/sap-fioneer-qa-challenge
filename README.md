@@ -34,13 +34,8 @@ In order to run these tests, please follow the below instructions.
    git clone https://github.com/Wolf00007/sap-fioneer-qa-challenge
    cd sap-fioneer-qa-challenge
    npm install
-   npx cypress open
-   ```
-   Note: in case npm won't install Cypress correctly, the **cypres open** command will not work.
-   If that's that case, please install Cypress manually:
-
-   ```bash
    npx cypress install
+   npx cypress open
    ```
    
 9. Cypress will open in a new window. Click on the **E2E Testing** section.
